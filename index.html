@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Cutral Cofque</title>
+        <!--<style type="text/css">
+            h2 {color: #473399;font-family: Arial; font-size: large;}
+            .p_pequeno {color: blue; font-family: Verdana; font-size: small;}
+        </style>-->
+        <link rel="stylesheet" href="style.css"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+        <h1>Cutral Cofque</h1>
+            <nav class="navegacion"><!-- Menu de navegación, los id de las secciones son los mismos que el nombre pero en minuscula-->
+                <ul class="navegacionMenu">    
+                    <li><a href="#menu">Menú principal</a></li>
+                    <li><a href="#bebidas">Bebidas</a></li>
+                    <li><a href="#postres">Postres</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#plato_de_la_semana">Plato de la semana</a></li>
+                    <li><a href="#sobre_nosotros">Sobre nosotros</a></li>
+                    <li><a href="https://es.wikipedia.org/wiki/Charquic%C3%A1n">Info sobre el plato de la semana</a></li>
+                    <li><a href="#videos_relacionados">Videos relacionados</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <main class="grid_container">
+        <section id="menu">
+            <h2>Menú principal</h2>
+            <table>
+                <tr>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Empanadas de pino</td>
+                    <td>Masa con carne, cebolla, huevo aceitunas y pasas</td>
+                    <td>$3.200</td>
+                </tr>
+                <tr>
+                    <td>Pastel de choclo</td>
+                    <td>Maíz molido con carne, pollo, huevo y aceitunas</td>
+                    <td>$5.500</td>
+                </tr>
+                <tr>
+                <td>Cazuela de vacuno</td>
+                    <td>Caldo con carne, papas, zapallo, choclo y verduras</td>
+                    <td>$4.800</td>
+                </tr>
+                
+            </table>
+            </section>
+
+        <section id="bebidas">
+            <h2>Bebidas</h2>
+            <table>
+                <tr>
+                <th>Producto</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                </tr>
+                <tr>
+                <td>Cerveza artesanal</td>
+                <td>Variedades elaboradas en la zona</td>
+                <td>$3.500</td>
+                </tr>
+                <tr>
+                    <td>Gaseosa</td>
+                    <td>Coca-Cola, Fanta o Sprite</td>
+                    <td>$1.800</td>
+                </tr>
+                <tr>
+                <td>Jugo natural</td>
+                    <td>Frutas frescas de temporada</td>
+                    <td>$2.500</td>
+                </tr>
+                
+            </table>
+            </section>
+            <section id="postres">
+            <h2>Postres</h2>
+            <table>
+                <tr>
+                <th>Producto</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                </tr>
+                <tr>
+                <td>Leche asada</td>
+                <td>Postre tradicional a base de leche, huevo y caramelo</td>
+                <td>$2.500</td>
+                </tr>
+                <tr>
+                    <td>Kuchen de manzana</td>
+                    <td>Masa suave con relleno de manzana y un toque de canela</td>
+                    <td>$3.000</td>
+                </tr>
+                <tr>
+                <td>Mote con huesillo</td>
+                    <td>Duraznos deshidratados en almíbar con mote, refrescante y dulce</td>
+                    <td>$2.200</td>
+                </tr>
+                
+            </table>
+            </section>
+            <section id="especialidades">
+                <h2>Especialidades</h2>
+                <dl>
+                <dt>Lomo a lo pobre</dt>
+                    <dd>Descripción: Jugoso lomo de vacuno acompañado de papas fritas, huevo frito y cebolla caramelizada. <br>Precio: $7.500</dd>
+                <dt>Costillar de cerdo al horno</dt>
+                    <dd>Descripción: Costillar cocinado lentamente al horno, marinado con especias, servido con papas doradas. <br>Precio: $8.500</dd>
+                </dl>
+            </section>
+            <section id="promociones">
+                <h2>Promociones</h2>
+                <ul class="listas">
+                    <li><span class="titulo">Promo familiar.</span> Descripción: 4 platos principales + 4 bebidas a elección.<span class="precio"> Precio:  $19.900</span></li>
+                    <li><span class="titulo">Menú ejecutivo.</span> Descripción: Plato principal + bebida + postre. <span class="precio"> Precio: $6.500</span></li>
+                    <li><span class="titulo">Combo especialidad.</span> Descripción: Especialidad de la casa + bebida + postre. <span class="precio"> Precio: $9.900</span></li>
+                </ul>
+            </section>
+            <section id="plato_de_la_semana">
+                <h2>Plato de la semana</h2>
+                <h3>Charquicán</h3>
+                <div class="galeria">
+                <img src="plato_de_la_semana.png" alt="Foto del plato de la semana">
+                <img src="Charquican2.png" alt="foto de charquica">
+                <img src="Charquican3.png" alt ="otra foto de charquican">
+                <!--<img src="Charquican1.jpg" width="300" alt="Foto de charquicán">-->
+                </div>
+                <br>
+                <audio controls src="plato_de_la_semana.mp3">Tu navegador no soporta el elemento de audio</audio>
+                <p>Preparación típica chilena elaborada con papas, zapallo, choclo y carne desmenuzada. Puede servirse acompañado de huevo frito.<br> Precio: $4.200</p>
+            </section>
+            <section id="videos_relacionados">
+                <h2>Videos relacionados</h2>
+                <iframe src="https://www.youtube.com/watch?v=UsgQY00hhF4" title="Video de preparación" width="40%" height="40%" sandbox></iframe>
+            </section>
+        </main>
+        <footer class="grid_container">
+            <section id="sobre_nosotros"><!--Aquí se encuentra la dirección e información general de la empresa-->
+                <h2>Sobre nosotros</h2>
+                <p class="p_pequeno">Cutral Cofque es un restaurante ubicado en la Región de Santiago, este se especializa en la gastronomía chilena. Ofrecemos una experiencia acogedora con platos típicos preparados con ingredientes frescos y recetas caseras, resaltando los sabores auténticos de Chile. Nuestro objetivo es brindar un ambiente familiar donde los clientes puedan disfrutar de la cultura y cocina nacional.</p>
+                <h4>Dirección:</h4>
+                <address>Av. Cutral 123, Providencia, Santiago, Chile</address>
+                <h4>Denominación legal</h4>
+                <p>Cutral Cofque SpA</p>
+            </section>
+        </footer>
+        
+    </body>
+</html>

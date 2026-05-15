@@ -1,0 +1,13 @@
+.listas{
+    background-color: #FFE5AD;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    list-style-type: none;
+}
+.titulo{
+    font-weight: bold;
+}
+.precio {
+    color: green
+}
