@@ -18,7 +18,7 @@
 }
     
     
-    
+
     
 .navegacionMenu {
     display: flex;
@@ -52,7 +52,20 @@
     flex-basis: 100%;
     border-radius: 8px;
 }
-/*Navegadores de dispositivos grandes*/
+main {/*Modificaciones del main*/
+    background-color: #bed5ff;
+    padding: 14px;
+    border-radius: 15px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}   
+    
+}    /*Navegadores de dispositivos grandes*/
 @media screen and (min-width: 700px){
     
 .grid_container {
@@ -68,7 +81,16 @@
     "area9 area9 area9 . . .";
 }
     
+main {/*Modificaciones del main*/
+    background-color: #bed5ff;
+    padding: 14px;
+    border-radius: 15px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 4px;
+    text-align: center;
     
+}   
     
 .navegacionMenu {
     display: flex;
@@ -173,16 +195,7 @@ a{
     color: #000000;
 }
 
-main {/*Modificaciones del main*/
-    background-color: #bed5ff;
-    padding: 14px;
-    border-radius: 15px;
-    border-color: #000000;
-    border-style: solid;
-    border-width: 4px;
-    text-align: center;
-    
-}   
+
 
 
 footer{
